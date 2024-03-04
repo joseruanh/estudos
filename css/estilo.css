@@ -27,7 +27,6 @@ header
 div.materias
 {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
