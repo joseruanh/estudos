@@ -42,8 +42,8 @@ p.assuntos
 
 button.videosbt
 {
-    width: 450px;
-    height: 200px;
+    width: 250px;
+    height: 100px;
     border-radius: 10px;
     background-color: transparent;
     padding: 10px;
@@ -78,6 +78,7 @@ button#adicao
     color: white;
     background-image: url(../images/adicao.png);
     background-position: center center;
+    background-size: cover;
 }
 
 button#sub
@@ -85,6 +86,7 @@ button#sub
     color: white;
     background-image: url(../images/sub.png);
     background-position: center center;
+    background-size: cover;
 }
 
 button#mult
@@ -92,6 +94,7 @@ button#mult
     color: white;
     background-image: url(../images/mult.png);
     background-position: center center;
+    background-size: cover;
 }
 
 button#divi
@@ -99,6 +102,7 @@ button#divi
     color: white;
     background-image: url(../images/divi.png);
     background-position: center center;
+    background-size: cover;
 }
 
 button.opcoes
