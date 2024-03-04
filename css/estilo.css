@@ -24,6 +24,17 @@ header
     text-align: center;
 }
 
+div.materias
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.materias > p
+{
+    margin: 0px 5px;
+}
+
 p.cabeca
 {
     font-weight: bolder;
@@ -120,6 +131,5 @@ button.opcoes
 button.opcoes:hover
 {
     transform: scale(1.1);
-    margin-left: 5px;
 }
 

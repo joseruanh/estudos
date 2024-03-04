@@ -17,3 +17,9 @@ function matematica()
     
     `
 }
+
+function biologia()
+{
+    let a = window.document.getElementById("res")
+    a.innerHTML = `<p> Esse conteúdo estará disponível em breve ;)</p>`
+}
