@@ -40,9 +40,10 @@ p.assuntos
     margin-left: 10px;
 }
 
-button
+button.videosbt
 {
-    width: 200px;
+    width: 450px;
+    height: 200px;
     border-radius: 10px;
     background-color: transparent;
     padding: 10px;
@@ -50,12 +51,10 @@ button
     transition: 0.3s;
     border: none;
 }
-button:hover
+button.videosbt:hover
 {
-    background-color: grey;
-    color: white;
-    width: 450px;
-    height: 200px;
+   transform: scale(1.1);
+    
 }
 
 main
@@ -69,31 +68,47 @@ main
     box-shadow: 2px 2px 10px black;
 }
 
-button.adicao
+div.videos
+{
+    text-align: center;
+}
+
+button#adicao
 {
     color: white;
     background-image: url(../images/adicao.png);
     background-position: center center;
 }
 
-button.sub
+button#sub
 {
     color: white;
     background-image: url(../images/sub.png);
     background-position: center center;
 }
 
-button.mult
+button#mult
 {
     color: white;
     background-image: url(../images/mult.png);
     background-position: center center;
 }
 
-button.divi
+button#divi
 {
     color: white;
     background-image: url(../images/divi.png);
     background-position: center center;
+}
+
+button.opcoes
+{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    color: #0762D9;
+    font-weight: bolder;
 }
 
