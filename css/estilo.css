@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *
 {
-    font-family: sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 body
 {
     max-width: 700px;
     margin: auto;
-    border: 1px solid black;
+}
+
+img.imgenem
+{
+    max-width: 150px;
 }
 
 header
 {
+    color: #0762D9;
     margin: auto;
     max-width: 300px;
     text-align: center;
@@ -53,8 +60,9 @@ button:hover
 
 main
 {
+    color: white;
     max-width: 90%;
-    background-color: rgb(176, 176, 255);
+    background-color: #0762D9;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -63,24 +71,28 @@ main
 
 button.adicao
 {
+    color: white;
     background-image: url(../images/adicao.png);
     background-position: center center;
 }
 
 button.sub
 {
+    color: white;
     background-image: url(../images/sub.png);
     background-position: center center;
 }
 
 button.mult
 {
+    color: white;
     background-image: url(../images/mult.png);
     background-position: center center;
 }
 
 button.divi
 {
+    color: white;
     background-image: url(../images/divi.png);
     background-position: center center;
 }
