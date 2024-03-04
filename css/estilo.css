@@ -1,0 +1,87 @@
+*
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+header
+{
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+p.cabeca
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+p.topic
+{
+    font-weight: bolder;
+}
+
+p.assuntos
+{
+    margin-left: 10px;
+}
+
+button
+{
+    width: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+button:hover
+{
+    background-color: grey;
+    color: white;
+    width: 450px;
+    height: 200px;
+}
+
+main
+{
+    max-width: 90%;
+    background-color: rgb(176, 176, 255);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+button.adicao
+{
+    background-image: url(../images/adicao.png);
+    background-position: center center;
+}
+
+button.sub
+{
+    background-image: url(../images/sub.png);
+    background-position: center center;
+}
+
+button.mult
+{
+    background-image: url(../images/mult.png);
+    background-position: center center;
+}
+
+button.divi
+{
+    background-image: url(../images/divi.png);
+    background-position: center center;
+}
+
